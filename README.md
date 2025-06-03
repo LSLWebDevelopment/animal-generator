@@ -1,3 +1,10 @@
+This simple application displays an animal image with a leattle heart next to it each time user clicks on the button Add Animal
+And each time the user clicks on the animal itself the heart is going to increase in size
+To use this app, clone the project to your pc
+Run an **npm install** to install dependencies 
+And run **npm run dev**
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
