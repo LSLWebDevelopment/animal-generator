@@ -19,9 +19,9 @@ export function App() {
   };
 
   return (
-    <div>
+    <div className="text-center p-10">
       <button
-        className="border-2 border-amber-300 bg-amber-100 py-3 px-6 font-bold text-2xl m-5"
+        className="border-2 border-amber-300 bg-amber-100 py-3 font-bold text-2xl my-5 w-full"
         onClick={handleClick}
       >
         Add Animal

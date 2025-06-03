@@ -14,14 +14,24 @@ export function ShowAnimal({ image }: ShowAnimalProps) {
   };
 
   return (
-    <div className="relative" onClick={handleSize}>
-      <img src={image.img} alt="Animal" className="inline-block" width={150} />
-      <img
-        src={heart}
-        alt="Heart"
-        className="absolute right-0 bottom-0"
-        width={size}
-      />
+    <div
+      className="flex justify-center items-center relative border-2 border-gray-400 w-50 h-50 shadow-gray-500 shadow-lg"
+      onClick={handleSize}
+    >
+      <div>
+        <img
+          src={image.img}
+          alt="Animal"
+          className="inline-block"
+          width={150}
+        />
+        <img
+          src={heart}
+          alt="Heart"
+          className="absolute right-0 bottom-0"
+          width={size}
+        />
+      </div>
     </div>
   );
 }
